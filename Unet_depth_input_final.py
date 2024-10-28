@@ -7,8 +7,9 @@ from functions import load_data, post_process_prediction, preprocess_images, cal
 from functions import cross_validation_depth, train_final_model_depth_input
 
 if __name__ == "__main__":
-    ### Before running, change: ###
-    # 1) extrapolate must be commented within the preprocess image function in the functions file
+    # Within the preprocess_images function:
+    #     - extrapolation should be UNcommented
+    #     - anisotropic blurring and histogram equalization should be commented
 
     loc_img = "...\\train_x"
     loc_mask = "...\\train_y"
