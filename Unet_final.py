@@ -13,9 +13,9 @@ from functions import train_final_unet_model
 
 if __name__ == "__main__":
 
-    loc_img = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Frames\\Alle_frames\\train_x"
-    loc_mask = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Frames\\Alle_frames\\train_y"
-    loc_output = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Python\\Depth-Anything-V2\\Output_unet"
+    loc_img = "...\\train_x"
+    loc_mask = "...\\train_y"
+    loc_output = "...\\Output_unet"
 
     # Load data
     images, masks, filenames, images_notscaled, masks_notscaled = load_data(loc_img, loc_mask, target_size=(128,128))
