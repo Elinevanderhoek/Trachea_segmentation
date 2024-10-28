@@ -16,9 +16,9 @@ if __name__ == "__main__":
     #     - anisotropic blurring should be UNcommented
     #     - extrapolation and histogram equalization should be commented
     
-    loc_img = "...\\train_x"
-    loc_mask = "...\\train_y"
-    loc_output = "...\\Output_unet"
+    loc_img = "...\\train_x" # Update with your file path
+    loc_mask = "...\\train_y" # Update with your file path
+    loc_output = "...\\Output_unet" # Update with your file path
 
     # Load data
     images, masks, filenames, images_notscaled, masks_notscaled = load_data(loc_img, loc_mask, target_size=(128,128))
