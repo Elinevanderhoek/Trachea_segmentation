@@ -12,7 +12,8 @@ from functions import visualize_outcome
 from functions import train_final_unet_model
 
 if __name__ == "__main__":
-
+    # make sure that in the preprocess_images, the function histogram equalization is commented and anisotropic blurring is UNcommented
+    
     loc_img = "...\\train_x"
     loc_mask = "...\\train_y"
     loc_output = "...\\Output_unet"
