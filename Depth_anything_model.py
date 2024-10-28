@@ -189,9 +189,9 @@ from functions import depth_anything_function
 
 if __name__ == "__main__":
     # Set up paths
-    loc_img = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Frames\\Alle_frames\\test_x"
-    loc_mask = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Frames\\Alle_frames\\test_y"
-    loc_output = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Python\\Depth-Anything-V2\\Output_Depth_anything\\Test"
+    loc_img = "...\\test_x"
+    loc_mask = "...\\test_y"
+    loc_output = "...\\Test"
 
     # DataFrame to store results
     dataframe = pd.DataFrame(columns=['Image Name', 'dA', 'dB', 'Area', 'Perimeter', 'Ratio', 'Roundness'])
