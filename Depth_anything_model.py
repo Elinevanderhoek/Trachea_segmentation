@@ -189,9 +189,9 @@ from functions import depth_anything_function
 
 if __name__ == "__main__":
     # Set up paths
-    loc_img = "...\\test_x"
-    loc_mask = "...\\test_y"
-    loc_output = "...\\Test"
+    loc_img = "...\\test_x" # Update with your file path
+    loc_mask = "...\\test_y" # Update with your file path
+    loc_output = "...\\Test" # Update with your file path
 
     # DataFrame to store results
     dataframe = pd.DataFrame(columns=['Image Name', 'dA', 'dB', 'Area', 'Perimeter', 'Ratio', 'Roundness'])
