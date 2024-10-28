@@ -10,9 +10,9 @@ if __name__ == "__main__":
     ### Before running, change: ###
     # 1) extrapolate must be commented within the preprocess image function in the functions file
 
-    loc_img = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Frames\\Alle_frames\\train_x"
-    loc_mask = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Frames\\Alle_frames\\train_y"
-    loc_output = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Python\\Depth-Anything-V2\\Output_unet_depth_combi"
+    loc_img = "...\\train_x"
+    loc_mask = "...\\train_y"
+    loc_output = "...\\Output_unet_depth_combi"
 
     # Load data
     original_images, masks, filenames, images_notscaled, masks_notscaled = load_data(loc_img, loc_mask, target_size=(128,128))
