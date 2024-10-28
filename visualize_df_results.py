@@ -5,8 +5,8 @@ import pandas as pd
 from sklearn.metrics import mean_squared_error
 from scipy.stats import pearsonr
 
-file_path_ground_truth = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Python\\Depth-Anything-V2\\Output_unet_depth_combi\\Test\\df_ground_truth_test.csv"
-file_path_prediction = "C:\\Users\\ehoek3\\OneDrive - UMC Utrecht\\Tracheomalacie\\Python\\Depth-Anything-V2\\Output_unet_depth_combi\\Test\\df_prediction_test.csv"
+file_path_ground_truth = "...\\df_ground_truth_test.csv"
+file_path_prediction = "...\\df_prediction_test.csv"
 
 df_ground_truth = pd.read_csv(file_path_ground_truth)
 df_prediction = pd.read_csv(file_path_prediction)
