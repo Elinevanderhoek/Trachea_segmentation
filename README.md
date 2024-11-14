@@ -1,7 +1,7 @@
 # Trachea_segmentation
 Segmenting the trachea on bronchoscopy frames and calculating the percentage of remaining lumen for children with tracheomalacia
 
-Roughly the path to follow is:
+Roughly the running pathway is:
 1. Depth_Anything_Model
 2. Hyperparameters
 3. U_Net_final
