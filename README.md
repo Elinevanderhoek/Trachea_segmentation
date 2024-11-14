@@ -10,3 +10,7 @@ Roughly the path to follow is:
 6. visualize_df_results
 7. plotje
 8. calculate_percentages
+
+References:
+1. Yang L, Kang B, Huang Z, et al Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data
+2. Weng W, Zhu X (2015) U-Net: Convolutional Networks for Biomedical Image Segmentation. IEEE Access 9:16591–16603. https://doi.org/10.1109/ACCESS.2021.3053408
